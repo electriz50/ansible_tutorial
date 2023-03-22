@@ -1,4 +1,4 @@
 # ansible_tutorial
 
-This is my awesome Ansible repository !
-
+#Test de connexion au Hosts avec clé SSH
+ansible all --key-file ~/.ssh/ansible -i inventory -m ping
